@@ -1,0 +1,10 @@
+# ----------------------------------------------------------------------
+# Allow concatenation from within specific js and css files
+# ----------------------------------------------------------------------
+
+# Permit files to be parsed for SSI directives
+Options +Includes
+
+#AddType text/html .shtml
+#AddHandler server-parsed .shtml
+AddHandler server-parsed .html
